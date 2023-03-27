@@ -1,3 +1,3 @@
 # 2023_OSS
-## 2023 OSS ¼ö¾÷
-[3ÁÖÂ÷°­ÀÇ](./w3/README.md)
+## 2023 OSS ìˆ˜ì—…
+[3ì£¼ì°¨ê°•ì˜](./w3/README.md)
