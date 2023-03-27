@@ -5,7 +5,7 @@
 ### 3주차 git
 
 ### 이미지
-![kau](./kau.jpg)
+![kau](./kau.png)
 
 
 ### 링크   
