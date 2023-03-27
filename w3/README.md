@@ -9,10 +9,10 @@
 
 
 ### 링크   
-[LMS](https://lms.kau.ac.kr "항공대학교 강의관리시스템")
+[LMS](https://lms.kau.ac.kr)
 
 #### ProGit 링크
-[ProGit](https://git-scm.com/book/ko/v2 "git 문서, 한국어")
+[ProGit](https://git-scm.com/book/ko/v2)
 
 
 ##### 주요 git 명령어
@@ -34,12 +34,12 @@
 #!/usr/bin/env bash
 echo "----------"
 echo "name :"
-echo "김정훈"
+
 echo
 
 echo "----------"
 echo "student id :"
-echo "2020125015"
+
 
 
 file_path=`find /home/kau2/ -name w2_homework.txt 2> /dev/null`
@@ -64,8 +64,8 @@ tail -n 1 $file_path
 ### 목록
 #### 번호 있는 목록 : 내림차순 정렬
 1. 첫번째
-2. 두번째
 3. 세번째
+2. 두번째
 
 #### 번호 없는 목록 : *, -, +
 * 첫번째
