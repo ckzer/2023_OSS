@@ -1,40 +1,40 @@
 # 2023_OSS
-## 2023 OSS ¼ö¾÷ 
+## 2023 OSS ìˆ˜ì—… 
 
 -----
-### 3ÁÖÂ÷ git
+### 3ì£¼ì°¨ git
 
-### ÀÌ¹ÌÁö
+### ì´ë¯¸ì§€
 ![kau](./kau.png)
 
 
-### ¸µÅ©   
-[LMS](https://lms.kau.ac.kr "Ç×°ø´ëÇĞ±³ °­ÀÇ°ü¸®½Ã½ºÅÛ")
+### ë§í¬   
+[LMS](https://lms.kau.ac.kr "í•­ê³µëŒ€í•™êµ ê°•ì˜ê´€ë¦¬ì‹œìŠ¤í…œ")
 
-#### ProGit ¸µÅ©
-[ProGit](https://git-scm.com/book/ko/v2 "git ¹®¼­, ÇÑ±¹¾î")
+#### ProGit ë§í¬
+[ProGit](https://git-scm.com/book/ko/v2 "git ë¬¸ì„œ, í•œêµ­ì–´")
 
 
-##### ÁÖ¿ä git ¸í·É¾î
-* add : ÆÄÀÏÀ» ÃßÀû ´ë»óÀ¸·Î Æ÷ÇÔ½ÃÅ³ ¶§, ¶Ç´Â Ä¿¹Ô ´ë»óÀ¸·Î Æ÷ÇÔ½ÃÅ³ ¶§ »ç¿ë
-    * ¿¹) git add <file name>
+##### ì£¼ìš” git ëª…ë ¹ì–´
+* add : íŒŒì¼ì„ ì¶”ì  ëŒ€ìƒìœ¼ë¡œ í¬í•¨ì‹œí‚¬ ë•Œ, ë˜ëŠ” ì»¤ë°‹ ëŒ€ìƒìœ¼ë¡œ í¬í•¨ì‹œí‚¬ ë•Œ ì‚¬ìš©
+    * ì˜ˆ) git add <file name>
 * commit
-* git reset HEAD <file> : stageµÈ ÆÄÀÏÀ» unstaged·Î º¯°æ
-* git checkout -- <file> : stageµÇ¾î ÀÖ´Â ÆÄÀÏÀ» ¼öÁ¤ÇÑ ÈÄ ¼öÁ¤ ÀüÀ¸·Î µÇµ¹¸² 
+* git reset HEAD <file> : stageëœ íŒŒì¼ì„ unstagedë¡œ ë³€ê²½
+* git checkout -- <file> : stageë˜ì–´ ìˆëŠ” íŒŒì¼ì„ ìˆ˜ì •í•œ í›„ ìˆ˜ì • ì „ìœ¼ë¡œ ë˜ëŒë¦¼ 
 * branch
 * merge
 * status
 * log
-    * ¿¹) git log --oneline --decorate --graph --all
+    * ì˜ˆ) git log --oneline --decorate --graph --all
 
 ------
-### 2ÁÖÂ÷ ¼÷Á¦
+### 2ì£¼ì°¨ ìˆ™ì œ
 
 ```bash
 #!/usr/bin/env bash
 echo "----------"
 echo "name :"
-echo "±èÁ¤ÈÆ"
+echo "ê¹€ì •í›ˆ"
 echo
 
 echo "----------"
@@ -60,26 +60,25 @@ echo "lask line :"
 tail -n 1 $file_path
 ```
 
-## ¸¶Å©´Ù¿î
-### ¸ñ·Ï
-#### ¹øÈ£ ÀÖ´Â ¸ñ·Ï : ³»¸²Â÷¼ø Á¤·Ä
-1. Ã¹¹øÂ°
-2. µÎ¹øÂ°
-3. ¼¼¹øÂ°
+## ë§ˆí¬ë‹¤ìš´
+### ëª©ë¡
+#### ë²ˆí˜¸ ìˆëŠ” ëª©ë¡ : ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬
+1. ì²«ë²ˆì§¸
+2. ë‘ë²ˆì§¸
+3. ì„¸ë²ˆì§¸
 
-#### ¹øÈ£ ¾ø´Â ¸ñ·Ï : *, -, +
-* Ã¹¹øÂ°
-- ¼¼¹øÂ°
-+ µÎ¹øÂ°
+#### ë²ˆí˜¸ ì—†ëŠ” ëª©ë¡ : *, -, +
+* ì²«ë²ˆì§¸
+- ì„¸ë²ˆì§¸
++ ë‘ë²ˆì§¸
 -----
-* »¡°­
-  * ³ì»ö
-    * ÆÄ¶û
+* ë¹¨ê°•
+  * ë…¹ìƒ‰
+    * íŒŒë‘
 
-### °­Á¶
+### ê°•ì¡°
 *single asterisks*    
 _single underscores_    
 **double asterisks**    
 __double underscores__    
 ~~cancelline~~    
-
